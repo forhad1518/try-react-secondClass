@@ -12,7 +12,7 @@ function App() {
     alert (num + 5)
   }
   return (
-    <>
+    <section>
       <h3>React Core Concept Second day</h3>
       <br />
       <Users></Users>
@@ -21,7 +21,7 @@ function App() {
       <br />
       <button onClick={handleClick}>Click Me!</button>
       <button className='btn btn-outline btn-secondary'  onClick={() => addedFive(3)}>Button 2</button>
-    </>
+    </section>
   )
 }
 
